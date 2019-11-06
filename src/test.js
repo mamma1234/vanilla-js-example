@@ -14,14 +14,17 @@ const calculator = {
   }
 };
 
-console.log(calculator.plus(1, 2));
-console.log(calculator.minus(1, 2));
-console.log(calculator.a);
-console.log(calculator.arr);
-console.log(calculator.arr[2]);
+//console.log(calculator.plus(1, 2));
+//console.log(calculator.minus(1, 2));
+//console.log(calculator.a);
+//console.log(calculator.arr);
+//console.log(calculator.arr[2]);
 console.log(calculator.obj.plus(1, 2));
-//console.log(a);
 
 const app = document.getElementById("app");
+const app1 = document.querySelector("#app");
 
-console.log(app);
+console.dir(app);
+console.log(app1);
+
+//app.innerHTML = "Test INNER HTML";
